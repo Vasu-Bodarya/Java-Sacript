@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Object</title>
+</head>
+<body>
+    
+
+    <h1 id="name"></h1>
+    <h2 id="age"></h2>
+    <h2 id="state"></h2>
+    <h2 id="areya"></h2>
+
+
+
+    <script>
+        
+
+        var obj = {
+            name: 'Rajuuuu',
+            age: 17,
+            state: 'Gujrat',
+            lol:{
+                areya: ['Surat', 'Rajkot', 'ahemdabad']
+            }
+        };
+
+        document.getElementById('name').innerHTML = `Name = ${obj.name}`;
+        document.getElementById('age').innerHTML = `Age = ${obj.age}`;
+        document.getElementById('state').innerHTML = `State = ${obj.state}`;
+        document.getElementById('areya').innerHTML = `Areya = ${obj.lol.areya[1]}`;
+
+    </script>
+</body>
+</html>
